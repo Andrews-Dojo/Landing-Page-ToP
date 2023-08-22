@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    font-family: 'Roboto', sans-serif;
 }
 
 .placeholder {
@@ -55,7 +56,7 @@ a {
     padding-left: 200px;
 }
 
-.first-container-text {
+.header-left {
     max-width: 400px;
 }
 
@@ -128,3 +129,33 @@ a {
     width: 200px;
     flex-wrap: wrap;
 }
+
+.third-container {
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 64px;
+    padding-top: 64px;
+    background-color: #E5E7EB;
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+.author {
+    display: flex;
+    justify-content: right;
+    width: 850px;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.quote {
+    color: #6b727b;
+    font-style: italic;
+    font-weight: lighter;
+    width: 850px;
+    font-size: 36px;
+}
+
