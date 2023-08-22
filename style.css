@@ -8,6 +8,9 @@ body {
 .placeholder {
     width: 500px;
     height: auto;
+    border-style:inset;
+    border-color: white;
+    border-radius: 12px;
 }
 
 ul {
@@ -115,19 +118,19 @@ a {
 .second-body {
     display: flex;
     justify-content: center;
-    gap: 32px;
+    gap: 16px;
     padding-top: 32px;
     padding-bottom: 64px;
 }
 
 .second-container img {
-    width: 200px;
-    height: auto;
+ max-height: 200px;
 }
 
 .second-body .text {
     width: 200px;
     flex-wrap: wrap;
+    padding-top: 16px;
 }
 
 .third-container {
